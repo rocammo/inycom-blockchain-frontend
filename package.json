@@ -1,0 +1,19 @@
+{
+  "name": "inycom-blockchain-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "client.js",
+  "scripts": {
+    "start": "node client.js",
+    "dev": "nodemon --watch public client.js"
+  },
+  "keywords": [],
+  "author": "Rodrigo Casamayor <rodrigo.casamayor@inycom.es>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}

@@ -8,7 +8,7 @@
 
 body {
   font-family: oswald, helvetica, arial, sans-serif;
-  background: #fff;
+  background: url(bg.jpg), #000;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -21,17 +21,19 @@ body {
 
 header {
   position: relative;
-  height: 80px;
+  height: auto;
 }
 
 header .menu {
-  background: rgba(242, 242, 242, 0.7);
+  background: rgba(255, 255, 255, 0.7);
   overflow: hidden;
 }
 
 header .logo {
+  color: rgba(0, 0, 0, 0.8);
   float: left;
-  margin: 20px;
+  font-size: 30px;
+  line-height: 80px;
 }
 
 header nav {
@@ -56,7 +58,7 @@ header nav ul li a {
 }
 
 header nav ul li:hover {
-  background: rgba(224, 40, 52, 1);
+  background: rgba(0, 0, 0, 0.8);
 }
 
 header nav ul li a:hover {
@@ -73,7 +75,7 @@ header nav ul li a:hover {
 
 .texto h2,
 .texto p {
-  background: rgba(224, 40, 52, 1);
+  background: rgba(0, 0, 0, 0.8);
   display: inline-block;
   padding: 10px 20px;
 }
@@ -97,6 +99,5 @@ header nav ul li a:hover {
 .principal article {
   padding: 20px;
   background: #fff;
-  border: 2px solid rgba(224, 40, 52, 1);
   margin-bottom: 20px;
 }

@@ -13,7 +13,7 @@ body {
   background-attachment: fixed;
 }
 
-.contenedor {
+.container {
   width: 90%;
   max-width: 1000px;
   margin: auto;
@@ -63,7 +63,7 @@ header nav ul li a:hover {
   color: #fff;
 }
 
-.texto {
+.text {
   color: #fff;
   position: relative;
   padding: 200px 0;
@@ -71,30 +71,30 @@ header nav ul li a:hover {
   font-weight: 400;
 }
 
-.texto h2,
-.texto p {
+.text h2,
+.text p {
   background: rgba(224, 40, 52, 1);
   display: inline-block;
   padding: 10px 20px;
 }
 
-.texto h2 {
+.text h2 {
   font-size: 40px;
   letter-spacing: 2.5px;
   font-weight: normal;
 }
 
-.texto p {
+.text p {
   font-size: 20px;
   letter-spacing: 2.5px;
 }
 
-.principal {
+.main {
   position: relative;
   color: #000;
 }
 
-.principal article {
+.main article {
   padding: 20px;
   background: #fff;
   border: 2px solid rgba(224, 40, 52, 1);

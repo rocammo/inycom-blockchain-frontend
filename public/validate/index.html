@@ -4,23 +4,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VALIDATE – Validador Blockchain | Inycom</title>
+
+    <link
+      href="http://fonts.googleapis.com/css?family=Oswald:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
-    <form enctype="multipart/form-data" method="post" name="validate">
-      <label>JSON file:</label>
-      <input type="file" name="document" required />
+    <header>
+      <div class="menu">
+        <div class="container">
+          <div class="logo"><img src="../logo.svg" height="40px" /></div>
+          <nav>
+            <ul>
+              <li><a href="/generate">GENERAR</a></li>
+              <li><a href="/validate">VALIDAR</a></li>
+              <li><a href="/recreate">RECREAR</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <div class="text">
+      <h2>Blockchain Validator</h2>
       <br />
-      <label>Txn url:</label>
-      <input
-        type="text"
-        name="url"
-        placeholder="https://rinkeby.etherscan.io/tx/0x..."
-        required
-        size="32"
-      />
-      <input type="submit" value="ENVIAR" />
-    </form>
-    <div id="output"></div>
+      <p>VALIDAR</p>
+    </div>
+
+    <div class="main container">
+      <article>
+        <form enctype="multipart/form-data" method="post" name="validate">
+          <label>JSON file:</label>
+          <input type="file" name="document" required />
+          <br />
+          <label>Txn url:</label>
+          <input
+            type="text"
+            name="url"
+            placeholder="https://rinkeby.etherscan.io/tx/0x..."
+            required
+            size="32"
+          />
+          <input type="submit" value="ENVIAR" />
+        </form>
+        <div id="output"></div>
+      </article>
+    </div>
 
     <script type="text/javascript" src="validate.js"></script>
   </body>
